@@ -5,7 +5,42 @@
     justify-content: center
     align-items: center
     flex-direction: column
+    .portfolio__label
+        background-color: transparentize($__COLOR__gradient03_, .5)
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 350px
+        z-index: 1
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        .portfolio__label__info-container
+            width: 60% 
+            height: 60%
+            border-radius: 4px
+            border: solid 2px $__COLOR__gradient01_
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
     .portfolio__work
-        background: #F00
+        cursor: pointer
+        overflow: hidden
         border: solid 1px #000
         height: 350px
+        display: flex
+        justify-content: center
+        align-items: center
+        &:hover
+            .portfolio__label
+                z-index: 3
+            img
+                z-index: 2
+                transition: $__TIME__transition_
+                height: 800px
+        img
+            z-index: 3
+            height: 350px
