@@ -3,10 +3,20 @@ p {
   font-family: "Open Sans", sans-serif;
   font-size: 1em; }
 
+a {
+  color: inherit !important; }
+
 h1 {
   font-family: "Raleway", sans-serif;
   font-size: 3em;
   color: #FFFFFF; }
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #FFFFFF;
+  text-transform: uppercase; }
 
 .menu {
   background: transparent; }
@@ -28,6 +38,19 @@ hr {
   border: none;
   height: 1px;
   width: 100%; }
+
+.section-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .section-title p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9em; }
+  .section-title p, .section-title h2 {
+    margin: 0px; }
 
 #index01 {
   height: 100vh;
@@ -63,3 +86,20 @@ hr {
     #index01 .subIndex01:nth-child(2) {
       flex: 1;
       align-items: center !important; }
+
+#latest-works {
+  background: transparent; }
+  #latest-works .latest-works__work {
+    @extends .col-12;
+    @extends .col-sm-12;
+    @extends .col-md-6;
+    @extends .col-lg-3;
+    @extends .col-xl-3;
+    height: 600px; }
+    #latest-works .latest-works__work:nth-child(2n) {
+      background: #cd0000; }
+    #latest-works .latest-works__work:nth-child(2n-1) {
+      background: #FFF; }
+
+.text-gradient03 {
+  color: #fcb045 !important; }
