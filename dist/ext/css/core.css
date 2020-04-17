@@ -3,6 +3,23 @@ p {
   font-family: "Open Sans", sans-serif;
   font-size: 1em; }
 
+.default01 {
+  padding: .6em 1.5em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: .8em;
+  color: #FFFFFF;
+  outline: none;
+  text-transform: uppercase;
+  background: #833ab4; }
+  .default01:hover {
+    transition: all 0.3s;
+    background: #fcb045; }
+
 a {
   color: inherit !important; }
 
@@ -21,7 +38,7 @@ h2 {
 .menu {
   background: transparent; }
   .menu .nav-item a {
-    color: #fcb045 !important;
+    color: #fcb045;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -38,6 +55,9 @@ hr {
   border: none;
   height: 1px;
   width: 100%; }
+
+html {
+  scroll-behavior: smooth; }
 
 .section-title {
   width: 100%;
@@ -60,7 +80,12 @@ hr {
   border-image-slice: 1;
   display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+  background-color: transparent;
+  background-image: url("/img/structure/pheader.png");
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: 70% 20%; }
   #index01 .container {
     height: 100%;
     display: flex;
@@ -101,5 +126,51 @@ hr {
     #latest-works .latest-works__work:nth-child(2n-1) {
       background: #FFF; }
 
+#services {
+  background: transparent; }
+  #services .services__service {
+    background: #F00;
+    border: solid 1px #000;
+    height: 300px; }
+
+#portfolio {
+  background: transparent; }
+  #portfolio .portfolio__work {
+    background: #F00;
+    border: solid 1px #000;
+    height: 350px; }
+
+#whoiam {
+  background: transparent; }
+  #whoiam .whoiam__explain:nth-child(1) img {
+    width: 400px; }
+  #whoiam .whoiam__explain:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #whoiam .whoiam__explain:nth-child(2) p {
+      text-justify: left; }
+
+#contact {
+  background: transparent; }
+  #contact .contact__divide:nth-child(1) img {
+    width: 100%; }
+
+#instagram-feed .instagram-feed__pic button i {
+  font-size: 4em; }
+
+#instagram-feed .instagram-feed__pic img {
+  border: none !important;
+  outline: none !important;
+  width: 100%;
+  background: #f00;
+  height: 300px; }
+
 .text-gradient03 {
   color: #fcb045 !important; }
+
+.background-gradient-default {
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045) !important; }
+
+.text-white {
+  color: #FFF !important; }
