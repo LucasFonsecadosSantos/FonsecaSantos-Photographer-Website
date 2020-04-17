@@ -8,6 +8,8 @@ html
         header
             include modules/components/_header.pug
         main
+            .scroll-button
+                i.fa.fa-angle-double-down(aria-hidden="true")
             section.container-fluid#index01
                 .container
                     .subIndex01
@@ -27,7 +29,8 @@ html
                         i.fa.fa-linkedin.text-white.mr-3(aria-hidden="true")
                         i.fa.fa-youtube.text-white.mr-3(aria-hidden="true")
                         hr
-                        i.fa.fa-angle-double-down.text-white.ml-3(aria-hidden="true")
+                        a(href="#latest-works")
+                            i.fa.fa-angle-double-down.text-white.ml-3(aria-hidden="true")
                 
             section.container-fluid.pt-5.pb-5#latest-works
                 .container
@@ -37,9 +40,29 @@ html
                             h2 meus trabalhos recentes
                 .row
                     .latest-works__work.col-12.col-sm-12.col-md-6.col-lg-3.col-xl-3
+                        .row
+                            .latest-works__label
+                                .latest-works__label__info-container
+                                    h2 Clique e visualize
+                            img(src="https://i.pinimg.com/originals/bf/c6/61/bfc6617f8d90d508b86cd513fdee759c.jpg")
                     .latest-works__work.col-12.col-sm-12.col-md-6.col-lg-3.col-xl-3
+                        .row
+                            .latest-works__label
+                                .latest-works__label__info-container
+                                    h2 Clique e visualize
+                            img(src="https://i.pinimg.com/originals/df/60/c2/df60c2570ade59a58cbadd1ce19463e3.jpg")
                     .latest-works__work.col-12.col-sm-12.col-md-6.col-lg-3.col-xl-3
+                        .row
+                            .latest-works__label
+                                .latest-works__label__info-container
+                                    h2 Clique e visualize
+                            img(src="https://i.pinimg.com/originals/a7/44/8e/a7448e5d497a1880f74b331834e45e90.jpg")
                     .latest-works__work.col-12.col-sm-12.col-md-6.col-lg-3.col-xl-3
+                        .row
+                            .latest-works__label
+                                .latest-works__label__info-container
+                                    h2 Clique e visualize
+                            img(src="https://i.pinimg.com/originals/32/29/43/322943fb3b2871218f0d04d362ca82d2.jpg")
             
             section.container-fluid.pt-5.pb-5#services
                 .container
@@ -48,12 +71,60 @@ html
                             p.text-gradient03 gostou dos trabalhos?
                             h2 que serviços eu presto?
                     .row
-                        .services__service.col-12.col-sm-12.col-md-6.col-lg-4.col-xl-4
-                        .services__service.col-12.col-sm-12.col-md-6.col-lg-4.col-xl-4
-                        .services__service.col-12.col-sm-12.col-md-6.col-lg-4.col-xl-4
-                        .services__service.col-12.col-sm-12.col-md-6.col-lg-4.col-xl-4
-                        .services__service.col-12.col-sm-12.col-md-6.col-lg-4.col-xl-4
-                        .services__service.col-12.col-sm-12.col-md-6.col-lg-4.col-xl-4
+                        .services__service.col-12.col-sm-12.col-md-6.col-lg-4.col-xl-4.p-3
+                            .container-fluid
+                                .row
+                                    .icon-box.p-3.mb-3
+                                        i.fa.fa-camera.text-white(aria-hidden="true")
+                                .row
+                                    h3 fotografia de eventos
+                                    p.mt-3.mb-3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                    a - Clique e saiba mais
+                        .services__service.col-12.col-sm-12.col-md-6.col-lg-4.col-xl-4.p-3
+                            .container-fluid
+                                .row
+                                    .icon-box.p-3.mb-3
+                                        i.fa.fa-video-camera.text-white(aria-hidden="true")
+                                .row
+                                    h3 video de eventos
+                                    p.mt-3.mb-3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                    a - Clique e saiba mais
+                        .services__service.col-12.col-sm-12.col-md-6.col-lg-4.col-xl-4.p-3
+                            .container-fluid
+                                .row
+                                    .icon-box.p-3.mb-3
+                                        i.fa.fa-user.text-white(aria-hidden="true")
+                                .row
+                                    h3 ensaios
+                                    p.mt-3.mb-3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                    a - Clique e saiba mais
+                        .services__service.col-12.col-sm-12.col-md-6.col-lg-4.col-xl-4.p-3
+                            .container-fluid
+                                .row
+                                    .icon-box.p-3.mb-3
+                                        i.fa.fa-home.text-white(aria-hidden="true")
+                                .row
+                                    h3 fotografia de ambientes
+                                    p.mt-3.mb-3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                    a - Clique e saiba mais
+                        .services__service.col-12.col-sm-12.col-md-6.col-lg-4.col-xl-4.p-3
+                            .container-fluid
+                                .row
+                                    .icon-box.p-3.mb-3
+                                        i.fa.fa-briefcase.text-white(aria-hidden="true")
+                                .row
+                                    h3 video comercial
+                                    p.mt-3.mb-3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                    a - Clique e saiba mais
+                        .services__service.col-12.col-sm-12.col-md-6.col-lg-4.col-xl-4.p-3
+                            .container-fluid
+                                .row
+                                    .icon-box.p-3.mb-3
+                                        i.fa.fa-group.text-white(aria-hidden="true")
+                                .row
+                                    h3 ativismo
+                                    p.mt-3.mb-3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                    a - Clique e saiba mais
             
             section.container-fluid.pt-5.pb-5#portfolio
                 .container
@@ -149,10 +220,12 @@ html
             |               
             |               if(scroll_start > offset.top) {
             |               
+            |                   $('.navbar-nav').removeClass('d-none');
             |                   $(".menu").addClass('background-gradient-default');
             |                   $('.nav-link').addClass('text-white');
             |                   $('.logo').css('filter', 'brightness(10000000%)');
             |               } else {
+            |                   $('.navbar-nav').addClass('d-none');
             |                   $('.nav-link').removeClass('text-white');
             |                   $('.menu').removeClass('background-gradient-default');
             |                   $('.menu').css('background-color', 'transparent');

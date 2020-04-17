@@ -1,6 +1,31 @@
 #services
     background: transparent
+    min-height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
     .services__service
-        background: #F00
-        border: solid 1px #000
+        transition: $__TIME__transition_
+        border: solid 1px $__COLOR__gray02_
         height: 300px
+        cursor: pointer
+        h3
+            margin: 0px
+        p, a
+            font-size: .9em
+        a
+            color: $__COLOR__white01_ !important
+        h3, p
+            padding: 0px
+            color: $__COLOR__white01_
+        .icon-box
+            border-radius: 4px
+            border: solid 1px $__COLOR__gray02_
+            i
+                font-size: 3em
+        &:hover
+            transition: $__TIME__transition_
+            border: solid 0.5px $__COLOR__gradient03_
+            i, a, h3
+                color: $__COLOR__gradient03_ !important

@@ -35,6 +35,13 @@ h2 {
   color: #FFFFFF;
   text-transform: uppercase; }
 
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 1.1em;
+  color: #FFFFFF;
+  text-transform: uppercase; }
+
 .menu {
   background: transparent; }
   .menu .nav-item a {
@@ -71,6 +78,33 @@ html {
     font-size: .9em; }
   .section-title p, .section-title h2 {
     margin: 0px; }
+
+.scroll-button {
+  position: fixed;
+  right: 2vw;
+  top: 90vh;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 100%;
+  background: #fcb045;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px; }
+  .scroll-button i {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px; }
+  .scroll-button:hover {
+    transition: all 0.3s;
+    width: 45px;
+    height: 45px; }
+    .scroll-button:hover i {
+      font-size: 2em; }
 
 #index01 {
   height: 100vh;
@@ -113,35 +147,102 @@ html {
       align-items: center !important; }
 
 #latest-works {
-  background: transparent; }
+  background: transparent;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  #latest-works .latest-works__label {
+    background-color: rgba(252, 176, 69, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    #latest-works .latest-works__label .latest-works__label__info-container {
+      width: 60%;
+      height: 60%;
+      border-radius: 4px;
+      border: solid 2px #833ab4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
   #latest-works .latest-works__work {
-    @extends .col-12;
-    @extends .col-sm-12;
-    @extends .col-md-6;
-    @extends .col-lg-3;
-    @extends .col-xl-3;
-    height: 600px; }
-    #latest-works .latest-works__work:nth-child(2n) {
-      background: #cd0000; }
-    #latest-works .latest-works__work:nth-child(2n-1) {
-      background: #FFF; }
+    cursor: pointer;
+    overflow: hidden;
+    height: 600px;
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #latest-works .latest-works__work:hover .latest-works__label {
+      z-index: 3; }
+    #latest-works .latest-works__work:hover img {
+      z-index: 2;
+      transition: all 0.3s;
+      height: 800px; }
+    #latest-works .latest-works__work img {
+      height: 600px;
+      z-index: 3; }
 
 #services {
-  background: transparent; }
+  background: transparent;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
   #services .services__service {
-    background: #F00;
-    border: solid 1px #000;
-    height: 300px; }
+    transition: all 0.3s;
+    border: solid 1px #424242;
+    height: 300px;
+    cursor: pointer; }
+    #services .services__service h3 {
+      margin: 0px; }
+    #services .services__service p, #services .services__service a {
+      font-size: .9em; }
+    #services .services__service a {
+      color: #FFFFFF !important; }
+    #services .services__service h3, #services .services__service p {
+      padding: 0px;
+      color: #FFFFFF; }
+    #services .services__service .icon-box {
+      border-radius: 4px;
+      border: solid 1px #424242; }
+      #services .services__service .icon-box i {
+        font-size: 3em; }
+    #services .services__service:hover {
+      transition: all 0.3s;
+      border: solid 0.5px #fcb045; }
+      #services .services__service:hover i, #services .services__service:hover a, #services .services__service:hover h3 {
+        color: #fcb045 !important; }
 
 #portfolio {
-  background: transparent; }
+  background: transparent;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
   #portfolio .portfolio__work {
     background: #F00;
     border: solid 1px #000;
     height: 350px; }
 
 #whoiam {
-  background: transparent; }
+  background: transparent;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
   #whoiam .whoiam__explain:nth-child(1) img {
     width: 400px; }
   #whoiam .whoiam__explain:nth-child(2) {
