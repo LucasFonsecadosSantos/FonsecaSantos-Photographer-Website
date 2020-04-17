@@ -1,0 +1,36 @@
+{
+  "name": "fonsecasantos-photographer-website",
+  "version": "1.0.0",
+  "description": "My personal portfolio homepage.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasFonsecadosSantos/FonsecaSantos-Photographer-Website.git"
+  },
+  "author": "Lucas Fonseca dos Santos",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/LucasFonsecadosSantos/FonsecaSantos-Photographer-Website/issues"
+  },
+  "homepage": "https://github.com/LucasFonsecadosSantos/FonsecaSantos-Photographer-Website#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-ruby-sass": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "node-sass": "^4.13.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}

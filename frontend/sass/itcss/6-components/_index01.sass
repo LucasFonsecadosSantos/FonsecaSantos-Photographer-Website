@@ -1,0 +1,40 @@
+#index01
+    height: 100vh
+    border: none
+    border-bottom: 6px solid transparent
+    border-image: linear-gradient(to right, $__COLOR__gradient01_ , $__COLOR__gradient02_, $__COLOR__gradient03_)
+    border-image-slice: 1
+    display: flex
+    flex-direction: row
+    align-items: center
+
+    .container
+        height: 100%
+        display: flex
+        flex-direction: column
+
+    .subIndex01
+        display:        flex
+        align-items:    center
+        flex-direction: row
+        i
+            font-size: 1em
+            cursor: pointer
+            &:hover
+                transition: $__TIME__transition_
+                color: $__COLOR__gradient02_ !important
+
+        &:nth-child(1)
+            justify-content: left
+            flex: 10
+            flex-wrap: wrap
+            h1, p
+                width: 100%
+                flex-shrink: 0
+                flex-grow: 0
+            
+        &:nth-child(2)
+            flex: 1
+            align-items: center !important
+            
+            

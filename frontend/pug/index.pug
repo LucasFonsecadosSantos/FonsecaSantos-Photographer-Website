@@ -1,0 +1,32 @@
+doctype html
+html
+    head
+        include modules/settings/_mixins.pug
+        +headerSettings("FonsecaSantos | Fotografia & Vídeo", "none", "Lucas Fonseca dos Santos", "GNU/GPLv3.0 - General Public License","#000", "pt-BR")
+        include modules/settings/_link-imports.pug
+    body
+        header
+            include modules/components/_header.pug
+        main
+            section.container-fluid#index01
+                .container
+                    .subIndex01
+                        .row.w-50
+                            h1 
+                                | LUCAS FONSECA
+                                br
+                                | DOS SANTOS
+                            p.text-white O que te emociona? O que te motiva? Diversas épocas, histórias, sensações e sentimentos podem ser eternizados através da luz, compondo a arte da fotografia.
+                    .subIndex01
+                        i.fa.fa-instagram.text-white.mr-3(aria-hidden="true")
+                        i.fa.fa-facebook.text-white.mr-3(aria-hidden="true")
+                        i.fa.fa-pinterest-p.text-white.mr-3(aria-hidden="true")
+                        i.fa.fa-linkedin.text-white.mr-3(aria-hidden="true")
+                        i.fa.fa-youtube.text-white.mr-3(aria-hidden="true")
+                        hr
+                        i.fa.fa-angle-double-down.text-white.ml-3(aria-hidden="true")
+                        
+                    
+        footer
+            include modules/components/_footer.pug
+        include modules/settings/_js-imports.pug
