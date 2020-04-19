@@ -1,0 +1,34 @@
+{
+    "pt-BR": [
+        {
+            "id": "section-home_instagram-link",
+            "title": "Clique para visitar meu instagram.",
+            "alt": "Botão para acessar meu perfil do instagram."
+        },
+        {
+            "id": "section-home_facebook-link",
+            "title": "Clique para visitar meu facebook.",
+            "alt": "Botão para acessar meu perfil do facebook."
+        },
+        {
+            "id": "section-home_pinterest-link",
+            "title": "Clique para visitar meu pinterest.",
+            "alt": "Botão para acessar meu perfil do pinterest."
+        },
+        {
+            "id": "section-home_linkedin-link",
+            "title": "Clique para visitar meu linkedin.",
+            "alt": "Botão para acessar meu perfil do linkedin."
+        },
+        {
+            "id": "section-home_youtube-link",
+            "title": "Clique para visitar meu youtube.",
+            "alt": "Botão para acessar meu perfil do youtube."
+        },
+        {
+            "id": "section-home_down-page-link",
+            "title": "Clique rolar o conteúdo da página.",
+            "alt": "Botão de rolagem da página."
+        }
+    ]
+}

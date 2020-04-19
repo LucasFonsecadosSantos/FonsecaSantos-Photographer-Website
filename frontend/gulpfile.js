@@ -6,6 +6,13 @@ var typescript  =   require('gulp-typescript');
 var browserSync =   require('browser-sync').create();
 var tsProject   =   typescript.createProject('typescript/tsconfig.json');
 
+gulp.task('copy-messages', () => {
+
+    gulp.src('messages/**/*')
+        .pipe(gulp.dest('../dist/messages'));
+
+});
+
 gulp.task('copy-images', () => {
 
     gulp.src('img/**/*')
@@ -47,6 +54,7 @@ gulp.task('monitor', () => {
     gulp.watch(['*.sass',   'sass/**/*.sass'],      gulp.series('sass-compile'));
     gulp.watch(['*.ts',     'typescript/**/*.ts'],  gulp.series('typescript-compile'));
     gulp.watch('img/**/*',                          gulp.series('copy-images'));
+    gulp.watch('messages/**/*',                     gulp.series('copy-messages'));
     gulp.watch('../dist/**/*.html',           browserSync.reload);
     gulp.watch('../dist/ext/css/**/*.css',    browserSync.reload);
     browserSync.init(
