@@ -1,0 +1,40 @@
+{
+    "pt-BR": [
+        {
+            "title": "fotografia e eventos",
+            "brief": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+            "link": "",
+            "icon": "fa-camera"
+        },
+        {
+            "title": "video de eventos",
+            "brief": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+            "link": "",
+            "icon": "fa-video-camera"
+        },
+        {
+            "title": "ensaios",
+            "brief": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+            "link": "",
+            "icon": "fa-user"
+        },
+        {
+            "title": "fotografia de ambientes",
+            "brief": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+            "link": "",
+            "icon": "fa-home"
+        },
+        {
+            "title": "teaser comercial",
+            "brief": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+            "link": "",
+            "icon": "fa-briefcase"
+        },
+        {
+            "title": "ativismo",
+            "brief": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+            "link": "",
+            "icon": "fa-group"
+        }
+    ]
+}

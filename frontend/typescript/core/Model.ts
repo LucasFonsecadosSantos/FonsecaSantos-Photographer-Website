@@ -16,7 +16,7 @@ export abstract class Model {
         const response = await fetch(this.relativePath)
                                 .then(response => response.json())
                                 .then(data => data);
-        
+    
         return response;
 
     }

@@ -11,6 +11,21 @@ export abstract class HomeElements {
         ['section-home_linkedin-link', document.querySelector('#section-home_linkedin-link')],
         ['section-home_youtube-link', document.querySelector('#section-home_youtube-link')],
         ['section-home_down-page-link', document.querySelector('#section-home_down-page-link')],
+
+        ['latest-works__title01-label', document.querySelector('#latest-works__title01-label')],
+        ['latest-works__title02-label', document.querySelector('#latest-works__title02-label')],
+
+        ['services__title01-label', document.querySelector('#services__title01-label')],
+        ['services__title02-label', document.querySelector('#services__title02-label')],
+        
+        ['portfolio__title01-label', document.querySelector('#portfolio__title01-label')],
+        ['portfolio__title02-label', document.querySelector('#portfolio__title02-label')],
+
+        ['whoiam__title01-label', document.querySelector('#whoiam__title01-label')],
+        ['whoiam__title02-label', document.querySelector('#whoiam__title02-label')],
+
+        ['whoiam__button01', document.querySelector('#whoiam__button01')],
+        ['whoiam__button02', document.querySelector('#whoiam__button02')],
     ]);
 
 }

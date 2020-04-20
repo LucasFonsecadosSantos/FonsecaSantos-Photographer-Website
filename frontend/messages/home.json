@@ -29,6 +29,61 @@
             "id": "section-home_down-page-link",
             "title": "Clique rolar o conteúdo da página.",
             "alt": "Botão de rolagem da página."
+        },
+        {
+            "id": "section-home-intro_link-label",
+            "text": "— Explore meu trabalho",
+            "title": "Clique e saiba mais sobre meu trabalho.",
+            "alt": "Link para saber mais a respeito do meu trabalho.",
+            "href": "#home"
+        },
+        {
+            "id": "section-home_intro-label",
+            "text": "O que te emociona? O que te motiva? Diversas épocas, histórias, sensações e sentimentos podem ser eternizados através da luz, compondo a arte da fotografia."
+        },
+        {
+            "id": "latest-works__title02-label",
+            "text": "meus trabalhos recentes"
+        },
+        {
+            "id": "latest-works__title01-label",
+            "text": "confira"
+        },
+        {
+            "id": "services__title01-label",
+            "text": "gostou dos trabalhos?"
+        },
+        {
+            "id": "services__title02-label",
+            "text": " que serviços eu presto?"
+        },
+        {
+            "id": "#portfolio__title02-label",
+            "text": "portifólio"
+        },
+        {
+            "id": "#portfolio__title01-label",
+            "text": "dos meus trabalhos"
+        },
+        {
+            "id": "whoiam__title01-label",
+            "text": "mas afinal"
+        },
+        {
+            "id": "whoiam__title02-label",
+            "text": "quem sou eu?"
+        },
+        {
+            "id": "whoiam__button01",
+            "text": "acesse meu github e conheceça meus trabalhos na área da tecnologia",
+            "title": "Clique para acessar meu github.",
+            "alt": "Botão para acessar meu perfil do github."
+        },
+        {
+            "id": "whoiam__button02",
+            "text": "visite meu linkedin para mais detalhes profissionais",
+            "title": "Clique para visitar meu perfil.",
+            "alt": "Botão para acessar meu linkedin."
         }
     ]
 }
