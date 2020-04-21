@@ -1,5 +1,5 @@
 export interface Component {
 
-    build(): DocumentFragment;
+    build(data?: Object): DocumentFragment;
 
 }

@@ -11,6 +11,6 @@ const components = {
 export class ComponentFactory {
     static buildComponent(targetComponent, data) {
         let component = new components[targetComponent]();
-        return component.build();
+        return component.build(data);
     }
 }

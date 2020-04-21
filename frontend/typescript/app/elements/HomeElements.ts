@@ -26,6 +26,8 @@ export abstract class HomeElements {
 
         ['whoiam__button01', document.querySelector('#whoiam__button01')],
         ['whoiam__button02', document.querySelector('#whoiam__button02')],
+
+        ['services__content', document.querySelector('#services__content')]
     ]);
 
 }

@@ -51,7 +51,7 @@ export class HomeController {
         this._loadLatestWorks();
         this._loadServices();
         this._loadPortfolio();
-
+        
     }
 
     private _loadPortfolio(): void {
@@ -97,7 +97,7 @@ export class HomeController {
             .then(data => {
 
                 let component: DocumentFragment =  ComponentFactory.buildComponent(ComponentNames.SERVICE_COMPONENT, data);
-                console.log(component);
+                HomeElements.ELEMENTS.get('services__content').appendChild(component);
 
             })
             .catch(error => {

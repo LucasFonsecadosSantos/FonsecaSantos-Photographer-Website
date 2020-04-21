@@ -20,4 +20,5 @@ HomeElements.ELEMENTS = new Map([
     ['whoiam__title02-label', document.querySelector('#whoiam__title02-label')],
     ['whoiam__button01', document.querySelector('#whoiam__button01')],
     ['whoiam__button02', document.querySelector('#whoiam__button02')],
+    ['services__content', document.querySelector('#services__content')]
 ]);

@@ -56,7 +56,7 @@ export class HomeController {
         this._serviceModel.all()
             .then(data => {
             let component = ComponentFactory.buildComponent(ComponentNames.SERVICE_COMPONENT, data);
-            console.log(component);
+            HomeElements.ELEMENTS.get('services__content').appendChild(component);
         })
             .catch(error => {
             console.log("HomeController exception in load services method: " + error);

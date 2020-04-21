@@ -21,7 +21,7 @@ export abstract class ComponentFactory {
         
         let component: Component = new components[targetComponent]();
         
-        return component.build();
+        return component.build(data);
 
     }
 
